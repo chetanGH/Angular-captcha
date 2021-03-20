@@ -1,0 +1,7 @@
+<re-captcha *ngIf="token == null" (resolved)="resolved($event)" 
+              siteKey="{{keyId}}">  
+</re-captcha>
+
+<p *ngIf="token != null">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat incidunt explicabo, officia itaque obcaecati earum exercitationem architecto accusamus quaerat esse facilis similique sunt repellendus doloribus ea. Fugiat odit dolorem harum.
+</p>
